@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "5d51f65a-9600-46a7-9fb9-1b8d49fc1302",
+		"name": "Calculator - week3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/test",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/add?op1=3&op2=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"add"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "3"
+						},
+						{
+							"key": "op2",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/minus?op1=3.6&op2=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"minus"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "3.6"
+						},
+						{
+							"key": "op2",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/minus?op1=2.6&op2=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"minus"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "2.6"
+						},
+						{
+							"key": "op2",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "divide",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/minus?op1=2.6&op2=0",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"minus"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "2.6"
+						},
+						{
+							"key": "op2",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/minus?op1=2.6&op2=0",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"minus"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "2.6"
+						},
+						{
+							"key": "op2",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "clear",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculator/minus?op1=2.6&op2=0",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"minus"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "2.6"
+						},
+						{
+							"key": "op2",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
